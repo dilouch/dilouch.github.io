@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- Sections -->
+    <main>
+        <div id="home"></div>
+        <div id="about"></div>
+        <div id="projects"></div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="js/script.js"></script>
+    <script>
+        const container = document.body;
+        for(let i=0; i<50; i++){
+            const el = document.createElement('div');
+            el.className = 'background-element ' + (Math.random() > 0.7 ? 'star' : '');
+            el.style.top = Math.random() * window.innerHeight + 'px';
+            el.style.left = Math.random() * window.innerWidth + 'px';
+            el.style.animationDelay = (Math.random()*5)+'s';
+            el.style.width = 5 + Math.random()*10 + 'px';
+            el.style.height = el.style.width;
+            container.appendChild(el);
+        }
+</script>
+
+</body>
+</html>
