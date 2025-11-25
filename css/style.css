@@ -135,12 +135,13 @@ section {
 }
 .intro { 
     margin: 0; 
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
-span { 
+.name { 
+    font-size: 2.5rem;
+    margin: 0;
     color: #ff66cc; 
 }
-
 .job { 
     margin: 0; 
 }
@@ -256,7 +257,7 @@ footer {
 
     /* Home */
     .home-avatar { 
-        justify-content: right;
+        display: none;
     }
     .salut { 
         font-size: 2rem; 
