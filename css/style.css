@@ -169,6 +169,7 @@ section {
 .skills { 
     margin-top: 2rem; 
 }
+
 .skills-icons { 
     display: flex; 
     flex-wrap: wrap; 
@@ -177,15 +178,66 @@ section {
     font-size: 3.5rem; 
     margin-top: 1rem; 
 }
-.skills-icons i { 
-    transition: transform 0.3s, color 0.3s; 
+
+.skills-icons .skill { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 0.5rem; 
     cursor: pointer; 
+    transition: transform 0.3s, color 0.3s; 
     color: #ff66cc; 
 }
-.skills-icons i:hover { 
+
+.skills-icons .skill i { 
+    font-size: 3.5rem; 
+}
+
+.skills-icons .skill span { 
+    font-size: 1rem; 
+    color: #c0b7b7; 
+    text-align: center; 
+}
+
+.skills-icons .skill:hover { 
     transform: scale(1.2); 
     color: #ff3399; 
 }
+
+.soft-skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 3.5rem;
+  margin-top: 1rem;
+}
+
+.soft-skills-icons .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+  color: #ff66cc;
+}
+
+.soft-skills-icons .skill i {
+  font-size: 3.5rem;
+}
+
+.soft-skills-icons .skill span {
+  font-size: 1rem;
+  color: #c0b7b7;
+  text-align: center;
+}
+
+.soft-skills-icons .skill:hover {
+  transform: scale(1.2);
+  color: #ff3399;
+}
+
 
 /*Projects*/
 .projects-container { 
