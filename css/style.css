@@ -105,6 +105,21 @@ section {
 .btn:hover {
     background-color: #ff3399;
 }
+.cv-button {
+  display: inline-block;
+  padding: 8px 10px;
+  background: #ff66cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.cv-button:hover {
+  background: #ff3399;
+}
+
 /*Home*/
 .home-content-container {
     display: flex;
@@ -117,6 +132,7 @@ section {
 }
 .home-text {
     flex: 1 1 300px;
+    text-align: center;
 }
 .salut { 
     font-size: 3rem; 
@@ -138,6 +154,7 @@ section {
     display: flex; 
     gap: 2rem; 
     margin-top: 1rem; 
+    justify-content: center;
 }
 .social-links i { 
     transition: transform 0.3s, color 0.3s; 
