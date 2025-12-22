@@ -199,11 +199,6 @@ section {
     text-align: center; 
 }
 
-.skills-icons .skill:hover { 
-    transform: scale(1.2); 
-    color: #ff3399; 
-}
-
 .soft-skills-icons {
   display: flex;
   flex-wrap: wrap;
@@ -232,12 +227,6 @@ section {
   color: #c0b7b7;
   text-align: center;
 }
-
-.soft-skills-icons .skill:hover {
-  transform: scale(1.2);
-  color: #ff3399;
-}
-
 
 /*Projects*/
 .projects-container { 
@@ -278,10 +267,6 @@ section {
     color: #ff66cc; 
     transition: transform 0.3s, color 0.3s; 
     cursor: default; 
-}
-.project-languages i:hover { 
-    transform: scale(1.2); 
-    color: #ff3399; 
 }
 
 /*Footer*/
