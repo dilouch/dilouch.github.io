@@ -128,9 +128,15 @@ section {
     flex: 1 1 300px;
     text-align: center;
 }
+.greeting-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+}
 .salut { 
     font-size: 3rem; 
-    margin-bottom: 0; 
+    margin: 0; 
 }
 .intro { 
     margin: 0; 
@@ -149,6 +155,7 @@ section {
     gap: 2rem; 
     margin-top: 1rem; 
     justify-content: center;
+    align-items: center;
 }
 .social-links a {
     display: flex;
@@ -273,6 +280,7 @@ section {
 }
 .project-media {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -283,15 +291,13 @@ section {
     max-width: 400px; 
     height: auto; 
     border-radius: 10px; 
-    margin-bottom: 1rem; 
 }
 .project-languages { 
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem; 
     align-items: center;
-    margin-top: 0; 
-    margin-left: 1rem;
+    margin-top: 1rem; 
 }
 .project-languages i { 
     font-size: 3rem; 
