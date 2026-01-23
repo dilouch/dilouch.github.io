@@ -150,14 +150,33 @@ section {
     margin-top: 1rem; 
     justify-content: center;
 }
+.social-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.social-links a:hover {
+    transform: scale(1.1);
+}
 .social-links i { 
-    transition: transform 0.3s, color 0.3s; 
+    transition: color 0.3s; 
     cursor: pointer; 
     color: #ff66cc; 
 }
-.social-links i:hover { 
-    transform: scale(1.2); 
+.social-links a:hover i { 
     color: #ff3399; 
+}
+.social-links span {
+    font-size: 0.7rem;
+    color: #ff66cc;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.social-links a:hover span {
+    color: #ff3399;
 }
 /*Skills*/
 .skills { 
