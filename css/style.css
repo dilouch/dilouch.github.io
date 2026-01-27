@@ -75,6 +75,13 @@ body {
     color: #ff66cc;
     margin: 0;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -90,6 +97,35 @@ body {
 .nav-links li a:hover {
     color: #ff3399;
     text-decoration: underline;
+}
+
+/* Bouton de changement de langue */
+.language-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ff66cc;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.language-toggle:hover {
+    background-color: #ff3399;
+    transform: scale(1.05);
+}
+
+.lang-icon {
+    font-size: 1.2rem;
+}
+
+.lang-text {
+    font-size: 0.9rem;
 }
 
 section {
