@@ -1377,3 +1377,9 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .timeline-mobile-offset {
+    margin-left: 2rem;
+  }
+}
